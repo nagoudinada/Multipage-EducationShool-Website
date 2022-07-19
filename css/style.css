@@ -30,7 +30,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: var(--color-white);
+    background: var(--color-bg);
 }
 
-<li><a href="courses.html">Courses</a></li>
-<li><a href="contact.html">Contact</a></li>
