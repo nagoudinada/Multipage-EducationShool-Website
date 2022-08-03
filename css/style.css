@@ -135,20 +135,7 @@ nav button{
     color: var(--color-bg2);
 }
 
-/*.header__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    top:50%;
-}
 
-.header__left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 4rem;
-}*/
 
 /* ===================================== HEADER =====================================*/
 
@@ -170,4 +157,42 @@ header {
 
 .header__left p{
     margin: 1rem 0 2.4rem;
+}
+
+/* ===================================== CATEGORIES  =====================================*/
+
+.categories {
+    background: var(--color-bg1);
+}
+
+.categories h1 {
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.categories__container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+}
+
+.categories__left p{
+    margin: 1rem 0 3rem;
+}
+
+.categories__right {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1.2rem;
+}
+
+.category {
+    background: var(--color-bg2);
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.category:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
 }
